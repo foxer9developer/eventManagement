@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "541910632786",
+    "firebase_url": "https://event-management-system-a1cb1.firebaseio.com",
+    "project_id": "event-management-system-a1cb1",
+    "storage_bucket": "event-management-system-a1cb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541910632786:android:7bc236086c3925b9",
+        "android_client_info": {
+          "package_name": "com.progtools.eventmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541910632786-oet739p78s0bfdjkqm306vp5is09tbrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5rTJ8aj3GEUz74xUESdoHUoWtCuTMPfc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

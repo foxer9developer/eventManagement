@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/createevent"
+        android:icon="@drawable/ic_createevent_icon"
+        android:title="Create Event"
+        app:showAsAction="ifRoom"
+        ></item>
+    <item android:id="@+id/editprofile"
+        android:icon="@drawable/ic_settingmenu_icon"
+        android:title="Edit Profile"
+        app:showAsAction="never"
+        ></item>
+    <item android:id="@+id/myevent"
+        android:icon="@drawable/ic_settingmenu_icon"
+
+        android:title="My Events"
+        app:showAsAction="never"
+        ></item>
+    <item android:id="@+id/signout"
+        android:icon="@drawable/ic_settingmenu_icon"
+
+        android:title="Sign Out"
+        app:showAsAction="never"
+        ></item>
+
+
+</menu>
