@@ -7,7 +7,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".Login_Activity">
+    tools:context=".Register_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="User Login"
+            android:text="Welcome! Register with us!"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <EditText
@@ -41,17 +41,17 @@
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/buttonLogin"
+            android:id="@+id/buttonRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="Login" />
+            android:text="Register User" />
 
         <TextView
-            android:id="@+id/textViewSignup"
+            android:id="@+id/textViewSignin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Not have an account? Signup Here."
+            android:text="Already Registered? Sign in here"
             android:textAlignment="center" />
     </LinearLayout>
 
