@@ -21,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:textColor="#a52a2a"
             android:text="Welcome! Register with us!"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -45,12 +46,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="Register User" />
+            android:text="Register" />
 
         <TextView
             android:id="@+id/textViewSignin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#ff0000"
             android:text="Already Registered? Sign in here"
             android:textAlignment="center" />
     </LinearLayout>
