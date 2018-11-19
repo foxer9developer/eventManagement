@@ -5,8 +5,10 @@ xmlns:tools="http://schemas.android.com/tools"
 android:id="@+id/activity_show_events"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+    android:background="@drawable/concert"
 
-tools:context=".show_event"
+
+    tools:context=".show_event"
 android:orientation="vertical">
 
 
