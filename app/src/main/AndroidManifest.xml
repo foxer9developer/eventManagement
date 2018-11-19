@@ -19,6 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".event_detail">
+
+        </activity>
+        <activity android:name=".show_event">
+
+        </activity>
+        <activity android:name=".add_event">
+
+        </activity>
+        <activity android:name=".submit_event">
+
+        </activity>
     </application>
 
 </manifest>
