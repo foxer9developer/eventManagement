@@ -1,6 +1,7 @@
 package com.progtools.eventmanagement;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -39,6 +40,7 @@ public class Adapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, "Clicked at position " + position, Toast.LENGTH_SHORT).show();
+                context.startActivity(new Intent(context, event_detail.class));
             }
         });
     }
