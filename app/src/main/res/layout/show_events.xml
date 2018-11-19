@@ -30,7 +30,6 @@ android:orientation="vertical">
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Show details"
-    android:textColor="#a52a2a"
     android:id="@+id/details"/>
 
 

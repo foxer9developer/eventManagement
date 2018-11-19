@@ -29,6 +29,7 @@ android:layout_width="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="enter event type"
         android:text=""
         android:id="@+id/entertype"/>
 
@@ -45,13 +46,14 @@ android:layout_width="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="enter dates of event"
         android:text=""
         android:id="@+id/enterdate"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter  event duration"
+        android:text="Enter event duration"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#a52a2a"
         android:id="@+id/duration"/>
@@ -59,6 +61,7 @@ android:layout_width="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="please specify number of days or hours"
         android:text=""
         android:id="@+id/enterduration"/>
 
@@ -73,6 +76,7 @@ android:layout_width="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="enter the name of your event"
         android:text=""
         android:id="@+id/entername"/>
 
@@ -86,6 +90,7 @@ android:layout_width="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="where is it to be held?"
         android:text=""
         android:id="@+id/entervenue"/>
 
@@ -99,6 +104,7 @@ android:layout_width="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="what is it about?"
         android:text=""
         android:id="@+id/enterabout"/>
 
@@ -114,6 +120,7 @@ android:layout_width="match_parent">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="oooh! surprises for us!"
         android:text=""
         android:id="@+id/enterspecial"/>
 
