@@ -50,6 +50,7 @@
             android:text="Login" />
 
         <TextView
+            android:paddingTop="35dp"
             android:id="@+id/textViewSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
